@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<title>VerifiSoft</title>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:700,300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header>
+		<div id="logo">
+			VERIFI<b>SOFT</b>
+		</div>
+		<div id="saludo">
+			HOLA<b>GLORIA</b>
+		</div>
+		<div id="sesion">
+			CERRAR<b>SESIÓN</b>
+		</div>
+	</header>
+
+	<nav id="menuLateral">
+		<img src="" alt="" id="imgMenuLateral">
+		<span id="txtLateral">Panel de control</span>
+	</nav>
+
+	<div id="mainContainer">
+		
+		<div id="subContainer">
+			<span id="displayMain">$10,000.00</span>
+			<span id="nombrePermanente">VENTAS</span>
+			<br>
+			<span id="diaPermanente">hoy</span>
+		</div>
+		
+		<div id="subContainer">
+			<span id="displayMain">$10,000.00</span>
+			<span id="nombrePermanente">GASTOS</span>
+			<br>
+			<span id="diaPermanente">hoy</span>
+		</div>
+		
+		<div id="subContainer">
+			<span id="displayMain">$10,000.00</span>
+			<span id="nombrePermanente">DINERO</span>
+			<br>
+			<span id="diaPermanente">en caja</span>
+		</div>
+	
+	</div>
+	<div id="mainContainer">
+		<div id="subContainerLow">
+			<div id="imgProducto"></div>
+			<span id="precioProducto"> $300.00</span><br>
+			<span id="desProducto">PRODUCTO 1</span><br>
+			<span id="totProducto1">total de productos 1: 0</span>
+			<div id="suma" onClick="suma1()"></div>
+			<div id="resta" onClick="resta1()"></div>
+		</div>
+
+		<div id="subContainerLow">
+			<div id="imgProducto"></div>
+			<span id="precioProducto"> $400.00</span><br>
+			<span id="desProducto">PRODUCTO 2</span><br>
+			<span id="totProducto2">total de productos 2: 0</span>
+			<div id="suma" onClick="suma2()"></div>
+			<div id="resta" onClick="resta2()"></div>
+		</div>
+
+		<div id="subContainerLow">
+			<div id="imgProducto"></div>
+			<span id="precioProducto"> $500.00</span><br>
+			<span id="desProducto">PRODUCTO 3</span><br>
+			<span id="totProductos">total de productos 3: 0</span>
+			<div id="suma" onClick="suma3()"></div>
+			<div id="resta" onClick="resta3()"></div>
+		</div>
+
+		<div id="subContainerLow">
+			<div id="imgProducto"></div>
+			<span id="precioProducto"> $600.00</span><br>
+			<span id="desProducto">PRODUCTO 4</span><br>
+			<span id="totProducto4">total de productos4: 0</span>
+			<div id="suma" onClick="suma4()"></div>
+			<div id="resta" onClick="resta4()"></div>
+		</div>
+
+	</div>
+
+	<div id="line"></div>
+
+	<div id="mainContainerLow">
+		<div id="subContainerLow">
+			<div id="imgProducto"></div>
+			<span id="txtTotal">TOTAL</span><br>
+			<span id="precioTotal">$0.00</span><br>
+			<span id="totProductosGlobal">TOTAL DE PRODUCTOS: <b>0</b></span>
+		</div>
+		
+		<div id="subContainerLow">
+			<span id="mainPago">1. FORMA DE PAGO:</span>
+			<form action="">
+				<input type="radio" name="formaPago" value="efectivo" id="subPagar">EFECTIVO</input>
+				<input type="radio" name="formaPago" value="tarjeta" id="subPagar">TARJETA C/D</input>
+				<input type="radio" name="formaPago" value="cheque" id="subPagar">CHEQUE</input>
+			</form>
+		</div>
+
+		<div id="subContainerLow">
+			<span id="mainPago">2. CLIENTE</span>
+			<span id="subPagar">Ingresar Nombre del Cliente:</span>
+			<input type="text" id="inputPago"/>
+			<span id="registro">click aquí para <b>registrar nuevo</b> cliente</span>
+		</div>
+
+		<div id="subContainerLow">
+			<span id="mainPago">3. DESCUENTO</span>
+			<span id="subPagar">Ingresa la CLAVE para aplicar descuento:</span>
+			<input type="text" id="inputPago"/>
+		</div>
+
+	</div>
+
+	<script src="script/script.js"></script>
+</body>
+</html>

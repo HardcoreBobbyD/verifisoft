@@ -1,0 +1,262 @@
+* {
+	margin: 0;
+}
+
+header {
+	height: 30px;
+	background-color: #fff;
+	color: #04d1c2;
+}
+
+header {
+	font-family: 'Roboto Slab', serif;
+	margin-left: 20px;
+	margin-top: 10px;
+	display: inline-block;
+	list-style: none;
+	width: 99%;
+}
+
+#bg {
+	background-image: url("../img/bg-login.jpg");
+	height: 100%;
+	width: 100%;
+	background-color: #04d1c2;
+	position: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#bg form {
+	margin-top: 20%;
+}
+
+input {
+	background-color: #fff;
+	border-color: #2E64FE;
+	border-style: solid;
+	border: 1px;
+	padding: 8px;
+	width: 250px;
+	color: #04d1c2;
+	text-align: center;
+	font-size: .8em;
+}
+
+#boton:hover {
+	background-color: #04d1c2;
+	color: #fff;
+	border-color: #fff;
+	border: 1px;
+}
+
+#forma {
+	text-align: center;
+}
+
+/*  */
+
+#logo {
+	float: left;
+}
+
+#saludo {
+	float: left;
+	margin-left: 40px;
+	font-size: .8em;
+	margin-top: 5px;
+}
+
+#sesion {
+	float: right;
+	margin-right: 40px;
+	font-size: .8em;
+	margin-top: 5px;
+}
+
+/* Menú lateral | Digamos que es el nav */
+
+#menuLateral {
+	width: 130px;
+	min-width: 100px;
+	background-color: #04d1c2;
+	float: left;
+	height: 100%;
+	position: fixed;
+}
+
+#imgMenuLateral {
+	width: 95%;
+	height: 60px;
+	margin-top: 2px;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#txtLateral {
+	color: #fff;
+	margin-left: 15px;
+	font-family: 'Roboto Slab', serif;
+	font-size: .8em;
+}
+
+/* DASHBOARD o el menú display superior | El que muestra las lanas*/
+
+#mainContainer {
+	margin-left: 145px;
+	float: left;
+	display: inline-block;
+	font-family: 'Roboto Slab', serif;
+	width: 85%;
+	min-width: 280px;
+}
+
+#subContainer {
+	width: 250px;
+	min-width: 220px;
+	height: 80px;
+	display: inline-block;
+	margin-left: 15px;
+	border-color: #edece3;
+	border-width: 1px;
+	border-style: solid;
+	text-align: right;
+}
+
+#displayMain {
+	padding-top: 10px;
+	padding-left: 10px;
+	font-size: 2em;
+	font-weight: bold;
+	float: left;
+}
+
+#nombrePermanente {
+	font-size: .9em;
+	padding-right: 10px;
+}
+
+#diaPermanente {
+	font-size: .8em;
+	padding-right: 14px;
+}
+
+/* La segunda parte del dashboard inferior */
+
+#mainContainerLow {
+	margin-left: 145px;
+	float: left;
+	display: inline-block;
+	font-family: 'Roboto Slab', serif;
+	width: 85%;
+	min-width: 280px;
+}
+
+#subContainerLow {
+	width: 200px;
+	height: 80px;
+	display: inline-block;
+	margin-left: 15px;
+	margin-top: 20px;
+	text-align: right;
+	vertical-align: top;
+}
+
+#imgProducto {
+	height: 100px;
+	background-color: #04d1c2;
+}
+
+#precioProducto {
+	font-size: .9em;
+	font-weight: bold;
+}
+
+#desProducto {
+	font-size: .8em;
+}
+
+#totProductos {
+	font-size: .75em;
+	font-style: italic;
+}
+
+#totProducto1 {
+	font-size: .75em;
+	font-style: italic;
+}
+
+#totProducto2 {
+	font-size: .75em;
+	font-style: italic;
+}
+
+#totProducto3 {
+	font-size: .75em;
+	font-style: italic;
+}
+
+#totProducto4 {
+	font-size: .75em;
+	font-style: italic;
+}
+
+#suma {
+	background-image: url(../img/suma.png);
+	width: 50px;
+	height: 50px;
+	background-size: cover;
+	display: block;
+}
+
+#resta {
+	background-image: url(../img/resta.png);
+	width: 50px;
+	height: 50px;
+	background-size: cover;
+	display: block;
+}
+
+#line {
+	height: 1px;
+	width: 80%;
+	background-color: #04d1c2;
+	margin-top: 385px;
+	margin-left: 150px;
+}
+
+/* La tercera parte del dashboard */
+
+#precioTotal {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#mainPago {
+	font-weight: bold;
+	font-size: .85em;
+	display: block;
+}
+
+#subPagar {
+	font-size: .8em;
+	display: block;
+}
+
+#registro {
+	font-size: .7em;
+	font-style: italic;
+}
+
+#registro b {
+	color: #04d1c2;
+}
+
+#inputPago {
+	width: 180px;
+	border-style: solid;
+	margin-top: 5px;
+}
