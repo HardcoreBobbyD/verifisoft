@@ -21,7 +21,15 @@
 
 	<nav id="menuLateral">
 		<img src="" alt="" id="imgMenuLateral">
-		<span id="txtLateral">Panel de control</span>
+		<ul id="txtLateral">
+			<li>PANEL DE CONTROL</li>
+			<br>
+			<li>CORTE</li>
+			<br>
+			<li>TRANSFERENCIA DE DINERO</li>
+			<br>
+			<li>DETALLE DE VENTAS</li>
+		</ul>
 	</nav>
 
 	<div id="mainContainer">
@@ -51,7 +59,7 @@
 	<div id="mainContainer">
 		<div id="subContainerLow">
 			<div id="imgProducto"></div>
-			<span id="precioProducto"> $300.00</span><br>
+			<span id="precioProducto">$300.00</span><br>
 			<span id="desProducto">PRODUCTO 1</span><br>
 			<span id="totProducto1">total de productos 1: 0</span>
 			<div id="suma" onClick="suma1()"></div>
@@ -60,7 +68,7 @@
 
 		<div id="subContainerLow">
 			<div id="imgProducto"></div>
-			<span id="precioProducto"> $400.00</span><br>
+			<span id="precioProducto">$400.00</span><br>
 			<span id="desProducto">PRODUCTO 2</span><br>
 			<span id="totProducto2">total de productos 2: 0</span>
 			<div id="suma" onClick="suma2()"></div>
@@ -69,18 +77,18 @@
 
 		<div id="subContainerLow">
 			<div id="imgProducto"></div>
-			<span id="precioProducto"> $500.00</span><br>
+			<span id="precioProducto">$500.00</span><br>
 			<span id="desProducto">PRODUCTO 3</span><br>
-			<span id="totProductos">total de productos 3: 0</span>
+			<span id="totProducto3">total de productos 3: 0</span>
 			<div id="suma" onClick="suma3()"></div>
 			<div id="resta" onClick="resta3()"></div>
 		</div>
 
 		<div id="subContainerLow">
 			<div id="imgProducto"></div>
-			<span id="precioProducto"> $600.00</span><br>
+			<span id="precioProducto">$600.00</span><br>
 			<span id="desProducto">PRODUCTO 4</span><br>
-			<span id="totProducto4">total de productos4: 0</span>
+			<span id="totProducto4">total de productos 4: 0</span>
 			<div id="suma" onClick="suma4()"></div>
 			<div id="resta" onClick="resta4()"></div>
 		</div>
@@ -100,7 +108,7 @@
 		<div id="subContainerLow">
 			<span id="mainPago">1. FORMA DE PAGO:</span>
 			<form action="">
-				<input type="radio" name="formaPago" value="efectivo" id="subPagar">EFECTIVO</input>
+				<input type="radio" name="formaPago" value="efectivo" id="subPagar" checked>EFECTIVO</input>
 				<input type="radio" name="formaPago" value="tarjeta" id="subPagar">TARJETA C/D</input>
 				<input type="radio" name="formaPago" value="cheque" id="subPagar">CHEQUE</input>
 			</form>
@@ -112,14 +120,26 @@
 			<input type="text" id="inputPago"/>
 			<span id="registro">click aquí para <b>registrar nuevo</b> cliente</span>
 		</div>
-
+		
 		<div id="subContainerLow">
-			<span id="mainPago">3. DESCUENTO</span>
-			<span id="subPagar">Ingresa la CLAVE para aplicar descuento:</span>
-			<input type="text" id="inputPago"/>
+			<!-- onClick aparece el Pop Up pero no aparece el maldito -->
+			<form action="" onSumbit="script/script.js:popUp()">
+				<span id="mainPago">3. DESCUENTO</span>
+				<span id="subPagar">Ingresa la CLAVE para aplicar descuento:</span>
+				<input type="text" id="inputPago"/>
+				<!-- <input type="submit" id="botonCobrar" value="COBRAR"/> -->
+				<button onClick="" id="botonCobrar">VERIFICAR DESCUENTO</button> <!-- Este es el botón que sirve para verificar si la clave de descuento se encuentra en el sistema -->
+			</form>
 		</div>
 
 	</div>
+
+	<div id="line2"></div>
+
+	<form id="placaSection">
+		<label>PLACA:</label>
+		<input type="text">
+	</form>
 
 	<script src="script/script.js"></script>
 </body>

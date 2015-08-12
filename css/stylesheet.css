@@ -62,7 +62,7 @@ input {
 
 #saludo {
 	float: left;
-	margin-left: 40px;
+	margin-left: 45px;
 	font-size: .8em;
 	margin-top: 5px;
 }
@@ -74,11 +74,11 @@ input {
 	margin-top: 5px;
 }
 
-/* Menú lateral | Digamos que es el nav */
+/* Menú lateral | Digamos que es el NAV */
 
 #menuLateral {
 	width: 130px;
-	min-width: 100px;
+	min-width: 130px;
 	background-color: #04d1c2;
 	float: left;
 	height: 100%;
@@ -98,16 +98,30 @@ input {
 
 #txtLateral {
 	color: #fff;
-	margin-left: 15px;
+	margin-top: 10px;
+	padding-left: 3px;
 	font-family: 'Roboto Slab', serif;
-	font-size: .8em;
+	font-size: .9em;
+	font-weight: bold;
+	width: 120px;
+	list-style: none;
+	text-align: center;
 }
+
+#txtLateral li:hover {
+	color: #04d1c2;
+	background-color: #fff;
+}
+
+
 
 /* DASHBOARD o el menú display superior | El que muestra las lanas*/
 
 #mainContainer {
 	margin-left: 145px;
+	min-width: 800px;
 	float: left;
+	clear: both;
 	display: inline-block;
 	font-family: 'Roboto Slab', serif;
 	width: 85%;
@@ -115,6 +129,7 @@ input {
 }
 
 #subContainer {
+	min-width: 800px;
 	width: 250px;
 	min-width: 220px;
 	height: 80px;
@@ -144,9 +159,12 @@ input {
 	padding-right: 14px;
 }
 
+
+
 /* La segunda parte del dashboard inferior */
 
 #mainContainerLow {
+	min-width: 800px;
 	margin-left: 145px;
 	float: left;
 	display: inline-block;
@@ -212,12 +230,20 @@ input {
 	display: block;
 }
 
+#suma:hover {
+	opacity: .3;
+}
+
 #resta {
 	background-image: url(../img/resta.png);
 	width: 50px;
 	height: 50px;
 	background-size: cover;
 	display: block;
+}
+
+#resta:hover {
+	opacity: .3;
 }
 
 #line {
@@ -227,6 +253,8 @@ input {
 	margin-top: 385px;
 	margin-left: 150px;
 }
+
+
 
 /* La tercera parte del dashboard */
 
@@ -259,4 +287,78 @@ input {
 	width: 180px;
 	border-style: solid;
 	margin-top: 5px;
+}
+
+#botonCobrar {
+	margin-top: 10px;
+	background-color: #04d1c2;
+	color: #fff;
+	padding: 10px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	font-size: 1em;
+	border-radius: 10px;
+	border-style: solid;
+	width: 150px;
+}
+
+#botonCobrar:hover {
+	background-color: #fff;
+	color: #04d1c2;
+}
+
+#datosFiscalesForma {
+	display: block;
+}
+
+
+
+/* Estilo de la forma datosFiscales.html */
+
+#botonEnviar {
+	background-color: #04d1c2;
+	color: #fff;
+	padding: 5px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	font-size: 1em;
+	border-radius: 10px;
+	border-style: solid;
+	width: 150px;
+}
+
+#botonEnviar:hover {
+	background-color: #fff;
+	color: #04d1c2;
+}
+
+
+
+/* Acá la sección de las placas */
+
+#line2 {
+	height: 1px;
+	width: 80%;
+	background-color: #04d1c2;
+	margin-top: 220px;
+	margin-left: 150px;
+}
+
+#placaSection {
+	min-width: 800px;
+	text-align: left;
+	margin-left: 165px;
+	margin-top: 20px;
+	float: left;
+	clear: both;
+	display: inline-block;
+	font-family: 'Roboto Slab', serif;
+	font-size: .9em;
+	font-weight: bold;
+}
+
+#placaSection input {
+	border-style: solid;
+	border-width: 1px;
+	text-align: left;
 }
