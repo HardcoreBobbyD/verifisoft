@@ -1,5 +1,15 @@
 * {
 	margin: 0;
+	text-decoration: none;
+}
+
+a:visited {
+}
+
+#active {
+	border-bottom-width: 3px;
+	border-bottom-color: white;
+	border-bottom-style: solid;
 }
 
 header {
@@ -116,6 +126,21 @@ input {
 
 
 /* DASHBOARD o el menú display superior | El que muestra las lanas*/
+
+#title {
+	font-family: 'Roboto Slab', serif;
+	font-size: 2em;
+	float: left;
+	margin-left: 165px;
+}
+
+#subTitle{
+	display: block;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.2em;
+	margin-left: 165px;
+	margin-top: 45px;	
+}
 
 #mainContainer {
 	margin-left: 145px;
@@ -296,10 +321,10 @@ input {
 	padding: 10px;
 	font-family: 'Roboto Slab', serif;
 	font-weight: bold;
-	font-size: 1em;
+	font-size: .8em;
 	border-radius: 10px;
 	border-style: solid;
-	width: 150px;
+	width: 200px;
 }
 
 #botonCobrar:hover {
@@ -361,4 +386,70 @@ input {
 	border-style: solid;
 	border-width: 1px;
 	text-align: left;
+}
+
+/* Estilo de CORTE.HTML */
+#containerCorte {
+	width: 200px;
+	height: 80px;
+	display: inline-block;
+	margin-left: 15px;
+	margin-top: 20px;
+	text-align: right;
+	vertical-align: top;
+}
+
+/* Estilo TRANSFERENCIA.HTML */
+
+#entradaNrml {
+	border-style: solid;
+	width: 150px;
+}
+
+#boldPlus {
+	display: block;
+	font-size: 2em;
+}
+
+select {
+	font-family: 'Roboto Slab', serif;
+	font-size: .8em;
+}
+
+#containerTransferencia {
+	width: 300px;
+	display: inline-block;
+	margin-left: 15px;
+	margin-top: 20px;
+	text-align: right;
+	vertical-align: top;
+}
+
+/* Estilo formaRegistroVehicular.html */
+
+#datosRegistroVehicular {
+}
+
+#inputRegistro {
+	width: 180px;
+	border-style: solid;
+	margin-top: 5px;
+	display: block;
+}
+
+#txtForm {
+	font-family: 'Roboto Slab', serif;
+	font-size: .8em;	
+}
+
+#titleRegistro {
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.5em;
+	width: 300px;
+}
+
+#subTitleRegistro {
+	font-family: 'Roboto Slab', serif;
+	font-size: .9em;	
+	width: 100px;
 }

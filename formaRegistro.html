@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Forma de Registro Vehicular</title>
+	<link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+	<h1 id="titleRegistro">FORMA DE REGISTRO - Nuevo Vehículo</h1>
+	<span id="subTitleRegistro">Aquí deberás ingresar la información de los nuevos vehículos:</span>
+
+	<br>
+	<br>
+
+	<form action="" id="datosRegistroVehicular">
+		<input type="text" placeholder="PLACA" id="inputRegistro">
+		<input type="text" placeholder="RAZÓN SOCIAL" id="inputRegistro">
+		<input type="text" placeholder="RFC" id="inputRegistro">
+		<input type="text" placeholder="DOMICILIO" id="inputRegistro">
+		<span id="txtForm">TIPO DE VEHÍCULO:</span>
+		<br>
+		<select>
+			<option value="0">CLICK PARA ELEGIR</option>
+		 	<option value="1">B2 Autobús de 2 ejes</option>
+		 	<option value="2">B3 Autobús de 3 ejes</option>
+			<option value="3">B4 Autobús de 4 ejes</option>
+			<option value="4">C2 Camión de 2 ejes</option>
+		  	<option value="5">C3 Camión de 3 ejes</option>
+		  	<option value="6">C4 Camión de 4 ejes</option>
+		  	<option value="7">T2 Tractocamión de 2 ejes</option>
+		  	<option value="8">T3 Tractocamión de 3 ejes</option>
+			<option value="9">S1 Semirremolque de 1 eje</option>
+		  	<option value="10">S2 Semirremolque de 2 ejes</option>
+		  	<option value="11">S3 Semirremolque de 3 ejes</option>
+		  	<option value="12">S4 Semirremolque de 4 ejes</option>
+		</select>
+		<input type="text" placeholder="NIV" id="inputRegistro">
+		<input type="text" placeholder="CLASE" id="inputRegistro">
+		<input type="text" placeholder="MODELO" id="inputRegistro">
+		<input type="text" placeholder="MARCA" id="inputRegistro">
+		<input type="text" placeholder="# DE EJES" id="inputRegistro">
+		<input type="text" placeholder="FOLIO DE TARJETA DE CIRCULACIÓN" id="inputRegistro">
+		<span id="txtForm">TIPO DE SERVICIO (CLAVE)</span>
+		<br>
+		<select>
+			<option value="0">CLICK PARA ELEGIR</option>
+		 	<option value="1">CG Carga General</option>
+		 	<option value="2">P Pasaje</option>
+		 	<option value="3">T Turismo</option>
+		 	<option value="4">PQ Paquetería</option>
+		 	<option value="5">MP Carga ESP (Materiales Peligrosos)</option>
+		 	<option value="6">M Carga ESP (Automóviles sin Rodar)</option>
+		 	<option value="7">FV carga ESP (Fondos y Valores)</option>
+		 	<option value="8">G Grúas de Arrastre Y/O Salvamento</option>
+		</select>
+		<input type="text" placeholder="NOM - TIPO DE SERVICIO" id="inputRegistro">
+		<input type="text" placeholder="# DE MOTOR" id="inputRegistro">
+		<span id="txtForm">¿PRESENTÓ REPORTE?</span>
+		<form action="">
+			<input type="radio" name="dictamen" value="si" id="subPagar" checked>SI</input>
+			<input type="radio" name="dictamen" value="no" id="subPagar">NO</input>
+		</form>
+		<span id="txtForm">¿PRESENTÓ DICTAMEN?</span>
+		<form action="">
+			<input type="radio" name="dictamen" value="si" id="subPagar" checked>SI</input>
+			<input type="radio" name="dictamen" value="no" id="subPagar">NO</input>
+		</form>
+		<input type="text" placeholder="# DE PASAJEROS" id="inputRegistro">
+		<input type="text" placeholder="# DE LITROS" id="inputRegistro">
+		<input type="text" placeholder="# TONELADAS" id="inputRegistro">
+
+		<br>
+		<input type="submit" value="ENVIAR" id="botonEnviar">
+	</form>
+</body>
+</html>

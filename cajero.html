@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/stylesheet.css">
-	<title>VerifiSoft</title>
+	<title>VerifiSoft - CAJERO</title>
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:700,300' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -22,40 +22,19 @@
 	<nav id="menuLateral">
 		<img src="" alt="" id="imgMenuLateral">
 		<ul id="txtLateral">
-			<li>PANEL DE CONTROL</li>
+			<li><a href="cajero.html" id="active">PANEL DE CONTROL</a></li>
 			<br>
-			<li>CORTE</li>
+			<li><a href="corte.html">CORTE</a></li>
 			<br>
-			<li>TRANSFERENCIA DE DINERO</li>
+			<li><a href="transferencia.html">TRANSFERENCIA DE DINERO</a></li>
 			<br>
-			<li>DETALLE DE VENTAS</li>
+			<li><a href="detalle.html">DETALLE DE VENTAS</a></li>
 		</ul>
 	</nav>
-
-	<div id="mainContainer">
-		
-		<div id="subContainer">
-			<span id="displayMain">$10,000.00</span>
-			<span id="nombrePermanente">VENTAS</span>
-			<br>
-			<span id="diaPermanente">hoy</span>
-		</div>
-		
-		<div id="subContainer">
-			<span id="displayMain">$10,000.00</span>
-			<span id="nombrePermanente">GASTOS</span>
-			<br>
-			<span id="diaPermanente">hoy</span>
-		</div>
-		
-		<div id="subContainer">
-			<span id="displayMain">$10,000.00</span>
-			<span id="nombrePermanente">DINERO</span>
-			<br>
-			<span id="diaPermanente">en caja</span>
-		</div>
 	
-	</div>
+	<h1 id="title">CAJERO - Panel de Control</h1>
+	<span id="subTitle">Esta sección te permitirá crear órdenes de compra e imprimir tickets:</span>
+
 	<div id="mainContainer">
 		<div id="subContainerLow">
 			<div id="imgProducto"></div>
@@ -136,6 +115,7 @@
 
 	<div id="line2"></div>
 
+	<!-- ¿Cómo agregar esta sección con cada ADD de productos?-->
 	<form id="placaSection">
 		<label>PLACA:</label>
 		<input type="text">
