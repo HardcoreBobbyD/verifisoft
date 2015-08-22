@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<title>VerifiSoft - CORTE</title>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:700,300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header>
+		<div id="logo">
+			VERIFI<b>SOFT</b>
+		</div>
+		<div id="saludo">
+			HOLA<b>GLORIA</b>
+		</div>
+		<div id="sesion">
+			CERRAR<b>SESIÓN</b>
+		</div>
+	</header>
+
+	<nav id="menuLateral">
+		<img src="" alt="" id="imgMenuLateral">
+		<ul id="txtLateral">
+			<li><a href="cajero.html">PANEL DE CONTROL</a></li>
+			<br>
+			<li><a href="corte.html" id="active">CORTE</a></li>
+			<br>
+			<li><a href="transferencia.html">TRANSFERENCIA DE DINERO</a></li>
+			<br>
+			<li><a href="detalle.html">DETALLE DE VENTAS</a></li>
+		</ul>
+	</nav>
+
+	<h1 id="title">CORTE</h1>
+	<span id="subTitle">Esta sección te permitirá generar los cortes diarios de ventas:</span>
+
+	<div id="mainContainer">
+
+		<div id="subContainerLow">
+			<b>FOLIOS</b>
+			<br>
+			<span>INICIALES: 0</span>
+			<br>
+			<span>CONSUMIDOS: 0</span>
+			<br>
+			<span>FINALES: 0</span>
+		</div>
+
+		<form id="subContainerLow">
+			<b>DINERO</b>
+			<br>
+			<span>INICIAL: 0</span>
+			<br>
+			<span>VENTAS: 0</span>
+			<br>
+			<span>GASTOS: 0</span>
+			<br>
+			<span>TRANSFERENCIAS: 0</span>
+			<br>
+			<span>EN CAJA: 0</span>
+			<button id="botonCobrar">CERRAR DÍA</button>
+		</form>
+
+	</div>
+
+	<script src="script/script.js"></script>
+</body>
+</html>

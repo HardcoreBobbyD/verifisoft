@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<title>VerifiSoft - TRANSFERENCIA</title>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:700,300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header>
+		<div id="logo">
+			VERIFI<b>SOFT</b>
+		</div>
+		<div id="saludo">
+			HOLA<b>GLORIA</b>
+		</div>
+		<div id="sesion">
+			CERRAR<b>SESIÓN</b>
+		</div>
+	</header>
+
+	<nav id="menuLateral">
+		<img src="" alt="" id="imgMenuLateral">
+		<ul id="txtLateral">
+			<li><a href="cajero.html">PANEL DE CONTROL</a></li>
+			<br>
+			<li><a href="corte.html">CORTE</a></li>
+			<br>
+			<li><a href="transferencia.html" id="active">TRANSFERENCIA DE DINERO</a></li>
+			<br>
+			<li><a href="detalle.html">DETALLE DE VENTAS</a></li>
+		</ul>
+	</nav>
+
+	<h1 id="title">TRANSFERENCIA</h1>
+	<span id="subTitle">Esta sección te permitirá crear comprobantes de transferencias y registro de las mismas:</span>
+
+	<div id="mainContainer">
+
+		<form id="containerTransferencia">
+			<b>TRANSFERENCIA</b>
+			<br>
+			<span>1. SALDO EN CAJA:</span>
+			<b id="boldPlus"><span>$ 0.00</span></b>
+			<br>
+			<span>2. IMPORTE A TRANSFERIR:</span>
+			<input type="text" id="entradaNrml" placeholder="$0.00">
+			<br>
+			<br>
+			<span>CONCEPTO:</span>
+			<br>
+			<input type="text" id="entradaNrml">
+			<br>
+			<br>
+			<span>3. RECIBE:</span>
+			<select>
+			  <option value="1">Jessica Pulido</option>
+			  <option value="2">Guillermina Maza</option>
+			  <option value="3">Tío Coy</option>
+			  <option value="4">Cinthia Pulido</option>
+			</select>
+			<br>
+			<br>
+			<span>4. NUEVO SALDO: </span>
+			<b id="boldPlus"><span>$ 0.00</span></b>
+			<br>
+			<br>
+			<button id="botonCobrar">VERIFICAR HUELLA</button>
+			<input type="submit" value="TRANSFERIR" id="botonCobrar">
+		</form>
+
+	</div>
+
+	<script src="script/script.js"></script>
+</body>
+</html>
