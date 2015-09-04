@@ -151,7 +151,6 @@ input {
 	display: inline-block;
 	font-family: 'Roboto Slab', serif;
 	width: 85%;
-	min-width: 280px;
 }
 
 #subContainer {
